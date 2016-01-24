@@ -45,6 +45,11 @@
             <version>0.1.6-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+		<dependency>
+            <groupId>by.nulay.changer</groupId>
+            <artifactId>changer</artifactId>
+            <version>1</version>
+        </dependency>
 
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
@@ -124,14 +129,14 @@
             <version>${mysql-connector.version}</version>
            
         </dependency>
-<!--
-        <dependency>
-            <groupId>com.ibm.db2</groupId>
-            <artifactId>db2jcc4</artifactId>
-            <version>4.18.60</version>
-           
-        </dependency>
--->
+
+        <!--<dependency>-->
+            <!--<groupId>com.ibm.db2</groupId>-->
+            <!--<artifactId>db2jcc4</artifactId>-->
+            <!--<version>4.18.60</version>-->
+           <!---->
+        <!--</dependency>-->
+
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-entitymanager</artifactId>
@@ -377,15 +382,6 @@
             <version>1.7.7</version>
            
         </dependency>
-		
-		<dependency>
-			<groupId>by.nulay.changer</groupId>
-			<artifactId>changer</artifactId>
-			<!--
-			<description>Changer sight</description>
-			-->
-			<version>1.1</version>
-		</dependency>
 
 </dependencies>
     <build>
