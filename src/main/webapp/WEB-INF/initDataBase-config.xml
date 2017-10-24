@@ -9,7 +9,7 @@
        http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-       <context:component-scan base-package="rw.ktc.cms.prepare"/>
+       <context:component-scan base-package="by.imix.cms.prepare"/>
 
        <mvc:annotation-driven/>
 
